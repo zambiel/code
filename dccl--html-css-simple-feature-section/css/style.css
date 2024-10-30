@@ -1,0 +1,71 @@
+body {
+    background-image: url(../img/Background_image.svg);
+    background-color: #121826;
+    color: #E5E7EB;
+    font-family: "Outfit", sans-serif;
+}
+
+h2, p {
+    color: #9DA3AE;
+    font-weight: 400;
+    font-size: 16px;
+}
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+
+img {
+    border-radius: 15px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 50px 100px;
+}
+.content-card {
+    margin: 20px 20px 0 20px;
+}
+
+.card {
+    padding: 20px auto;
+    background-color: #212936;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.emoji {
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.emoji1 {
+    background-color: #FCEED8;
+}
+.emoji2 {
+    background-color: #DEE9FC;
+}
+.emoji3 {
+    background-color: #FBE5E6;
+}
+
+
