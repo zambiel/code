@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Step Register Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <div class="register-form">
+            <h1 class="h1"></h1>
+
+            <div class="form">
+                <div id="form">
+                    <div class="container-fields">
+                        <div class="name-container">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" placeholder="enter your name">
+                        </div>
+                        <div class="email-container">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" placeholder="example@gmail.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="visible topics">
+                    <h2 class="topic" id="topic1">Software Development</h2>
+                    <h2 class="topic" id="topic2">User Experience</h2>
+                    <h2 class="topic" id="topic3">Graphic Design</h2>
+                </div>
+                <div id="summary" class="summary">
+                    <h2 class="content-summary">Name: <span class="content-span" id="nombre-res"></span></h2>
+                    <h2 class="content-summary">Email: <span class="content-span" id="email-res"></span></h2>
+                    <h2 style="font-size: 14px; color: var(--gris); margin-top: 30px;">Topics:</h2>
+                    <div class="containerList">
+                        <ul id="list" class="list">
+                            <li class="elementList element1" id="element1"></li>
+                            <li class="elementList element2" id="element2"></li>
+                            <li class="elementList element3" id="element3"></li>
+                        </ul>
+                    </div>
+                </div>
+                <button id="step" class="continue">Continue</button>
+                <button id="step2" class="continue hidden">Continue</button>
+
+            </div>
+        </div>
+        <div class="paginacion">
+            <span class="pages">Step 1 of 3</span>
+            <div class="points">
+                <div id="point1" class="point unchecked"></div>
+                <div id="point2" class="point unchecked unchecked1"></div>
+                <div id="point3" class="point unchecked unchecked2"></div>
+            </div>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
