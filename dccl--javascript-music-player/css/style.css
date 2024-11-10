@@ -1,0 +1,141 @@
+:root {
+    --rosa: #C93B76;
+    --negro: #212936;
+    --blanco: #E5E7EB;
+    --fondo: #272238;
+    --gris: #4c5462;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-image: url(../img/bg.jpg);
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: var(--blanco);
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+h2, h3 {
+    color: var(--gris);
+}
+h3 {
+    font-size: 1.3rem;
+}
+
+
+
+.cover {
+    border-radius: 6%;
+    width: 70%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.card {
+    background-color: var(--fondo);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 25%;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem -7rem auto -7rem;
+}
+
+.music-player {
+    width: 70%;
+}
+
+.minutes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -1rem;
+}
+
+#progress {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(to right, var(--rosa) 0%, var(--blanco) 0%);
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+}
+
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 6px;
+    height: 6px;
+    background: var(--rosa);
+}
+
+#progress::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #666;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+
+.circulo {
+    border-radius: 30px;
+    background-color: var(--rosa);
+
+}
+
+.accion {
+    width: 35px;
+    height: 32px;
+}
+.accion, .anterior, .siguiente {
+    cursor: pointer;
+}
+/* FONDO BLUE */
+
+.fondo-blue {
+    background-color: rgb(0, 183, 255);
+}

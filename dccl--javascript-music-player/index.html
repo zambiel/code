@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card1">
+                <img id="cover" src="" alt="cover" class="cover">
+                <div class="music-player">
+                    <div class="content">
+                        <h1 id="title" class="title"></h1>
+                        <h2 id="author" class="author"></h2>
+                    </div>
+                    <div class="minutes">
+                        <h3 id="timeDisplay"></h3>
+                        <h3 id="minutes-final"></h3>
+                    </div>
+                    <div class="progress-container">
+                        <input type="range" id="progress" value="0" max="100" min="0">
+                    </div>
+                    <div class="botones">
+                        <div class="anterior-div">
+                            <img id="anterior" class="anterior" src="img/Stop_and_play_fill-1.svg" alt="">
+                        </div>
+                        <div class="circulo">
+                            <img id="pause" class="accion" src="img/Play_fill.svg" alt="img">
+                        </div>
+                        <div class="siguiente-div">
+                            <img id="siguiente" class="siguiente" src="img/Stop_and_play_fill.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
