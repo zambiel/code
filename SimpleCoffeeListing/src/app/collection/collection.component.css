@@ -1,0 +1,47 @@
+.container {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+
+
+.content {
+  background-color: #1c1d1f;
+  border-radius: 6px;
+  background-image: url(../../assets/img/vector.svg);
+  background-repeat: no-repeat;
+  background-position: top right 300px;
+  padding-bottom: 40px;
+
+}
+
+.buttons {
+  margin-top: 15px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn1 {
+  color: #fff;
+  background-color: #6F757C;
+  margin-right: 10px;
+}
+
+.btn2 {
+  background-color: transparent;
+  color: #fff;
+}
+
+.btn2:hover {
+  background-color: #6F757C;
+}
